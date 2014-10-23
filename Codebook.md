@@ -16,12 +16,16 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ### Steps followed
 Created one R script called run_analysis.R that does the following. 
-1.  Merged the training and the test sets to create one data set..
-2.  Extracted only the measurements on the mean and standard deviation for each measurement. Selected any feature containing the string "mean" or "std"..
-3.  Used descriptive activity names to name the activities in the data set. This info was found in activity_labels.txt..
-4.  Appropriately labeled the data set with descriptive variable names (see "variable names".. 
+1.  Merged the training and the test sets to create one data set.
+
+2.  Extracted only the measurements on the mean and standard deviation for each measurement. Selected any feature containing the string "mean" or "std".
+
+3.  Used descriptive activity names to name the activities in the data set. This info was found in activity_labels.txt.
+
+4.  Appropriately labeled the data set with descriptive variable names (see "variable names".
+
 5.  From the data set in step 4, created a second, independent tidy data set 
-with the average of each variable for each activity and each subject using dplyr package. Called "tidy_data_step5.txt"..
+with the average of each variable for each activity and each subject using dplyr package. Called "tidy_data_step5.txt".
 
 ### Variable names:
 * activity: activity name e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
